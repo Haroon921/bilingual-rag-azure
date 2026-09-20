@@ -1,0 +1,14 @@
+{"id": "en-annual-leave", "lang": "en", "question": "How many days of annual leave do I get per year?", "expected_docs": ["leave_policy"], "expected_facts": ["25"], "should_refuse": false}
+{"id": "en-leave-notice", "lang": "en", "question": "How many days in advance must I request leave that is longer than 5 days?", "expected_docs": ["leave_policy"], "expected_facts": ["14"], "should_refuse": false}
+{"id": "en-hotel-intl", "lang": "en", "question": "What is the hotel limit per night for international travel?", "expected_docs": ["expense_policy"], "expected_facts": ["1200"], "should_refuse": false}
+{"id": "en-home-office", "lang": "en", "question": "How much is the home office allowance?", "expected_docs": ["remote_work_policy"], "expected_facts": ["1500"], "should_refuse": false}
+{"id": "en-password-xling", "lang": "en", "question": "What is the minimum password length?", "expected_docs": ["it_security_policy"], "expected_facts": ["14"], "should_refuse": false}
+{"id": "en-remote-security", "lang": "en", "question": "What security is required when I work remotely?", "expected_docs": ["remote_work_policy", "it_security_policy"], "expected_facts": ["vpn"], "should_refuse": false}
+{"id": "ar-annual-leave", "lang": "ar", "question": "كم يوماً من الإجازة السنوية أستحق في السنة؟", "expected_docs": ["leave_policy"], "expected_facts": ["25"], "should_refuse": false}
+{"id": "ar-maternity", "lang": "ar", "question": "ما مدة إجازة الوضع للأم العاملة؟", "expected_docs": ["leave_policy"], "expected_facts": ["12"], "should_refuse": false}
+{"id": "ar-password", "lang": "ar", "question": "ما الحد الأدنى لطول كلمة المرور؟", "expected_docs": ["it_security_policy"], "expected_facts": ["14"], "should_refuse": false}
+{"id": "ar-home-office", "lang": "ar", "question": "ما قيمة بدل مكتب المنزل؟", "expected_docs": ["remote_work_policy"], "expected_facts": ["1500"], "should_refuse": false}
+{"id": "ar-hotel-xling", "lang": "ar", "question": "ما الحد الأقصى لتكلفة الفندق لليلة الواحدة في السفر الدولي؟", "expected_docs": ["expense_policy"], "expected_facts": ["1200"], "should_refuse": false}
+{"id": "en-out-of-scope-1", "lang": "en", "question": "What is the stock option vesting schedule?", "expected_docs": [], "expected_facts": [], "should_refuse": true}
+{"id": "en-out-of-scope-2", "lang": "en", "question": "Who is the CEO of Al-Wadi Logistics?", "expected_docs": [], "expected_facts": [], "should_refuse": true}
+{"id": "ar-out-of-scope", "lang": "ar", "question": "ما هي سياسة الشركة بخصوص الزيادة السنوية للرواتب؟", "expected_docs": [], "expected_facts": [], "should_refuse": true}
