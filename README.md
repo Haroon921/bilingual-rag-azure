@@ -105,6 +105,10 @@ copy `.env.example` to `.env`, and ingest the sample documents first.
 
 ## Screenshots
 
+### Interactive API
+
+![Interactive OpenAPI interface for the bilingual RAG application](docs/images/application-api.png)
+
 ### Public template repository
 
 ![GitHub repository header showing the public template status](docs/images/repository-overview.png)
@@ -112,6 +116,11 @@ copy `.env.example` to `.env`, and ingest the sample documents first.
 ### Rendered architecture
 
 ![Rendered bilingual RAG ingestion and query architecture](docs/images/architecture.png)
+
+## Presentation
+
+Download the one-slide project overview:
+[`docs/bilingual-rag-azure-overview.pptx`](docs/bilingual-rag-azure-overview.pptx).
 
 ## Evaluation
 
