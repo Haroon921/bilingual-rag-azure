@@ -105,8 +105,13 @@ copy `.env.example` to `.env`, and ingest the sample documents first.
 
 ## Screenshots
 
-Screenshots of the interactive API and repository workflow are available in
-[`docs/images`](docs/images).
+### Public template repository
+
+![GitHub repository header showing the public template status](docs/images/repository-overview.png)
+
+### Rendered architecture
+
+![Rendered bilingual RAG ingestion and query architecture](docs/images/architecture.png)
 
 ## Evaluation
 
